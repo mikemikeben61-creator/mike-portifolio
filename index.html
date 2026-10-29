@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Michael's Portfolio</h1>
+        <p>A Bachelor of Science in Information Technology student</p>
+        <button id="clickMeButton">Click Me!</button>
+        <button id="darkModeBtn">Toggle Dark Mode</button>
+        <button id="changeColorButton">Change Background Color</button>
+        <button id="changeTextButton">Change Text</button>
+        <button id="changeImageButton">Change Image</button>
+        <button id="resetButton">Reset</button>
+        <button id="changeFontButton">Change Font</button>
+        <button id="changeFontSizeButton">Change Font Size</button>
+        <button id="changeTextColorButton">Change Text Color</button>
+        <button id="changeBorderButton">Change Border</button>
+        <button id="changePaddingButton">Change Padding</button>
+        <button id="changeMarginButton">Change Margin</button>
+        <button id="changeAlignmentButton">Change Alignment</button>
+        <button id="changeOpacityButton">Change Opacity</button>
+        <button id="changeShadowButton">Change Shadow</button>
+        <button id="changeHoverButton">Change Hover Effect</button>
+        <button id="changeTransitionButton">Change Transition</button>
+        <button id="changeTransformButton">Change Transform</button>
+        <button id="changeAnimationButton">Change Animation</button>
+        <button id="welcomeButton">Welcome</button>
+        <button id="goalButton">My Goals</button>
+        <button id="contactButton">Contact</button>
+        <button id="alertButton">Show Message</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#goals">My Goals</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Michael, a passionate IT student with a keen interest in web development and software engineering. I enjoy creating innovative solutions and continuously learning new technologies.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Project 1: Personal Portfolio Website</h3>
+                <p>I built a responsive portfolio website to showcase my projects and skills.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: E-commerce Platform</h3>
+                <p>I built a responsive e-commerce platform to showcase my projects and skills.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3: Simple Calculator</h3>
+                <p>I built a simple calculator using HTML, CSS, and JavaScript to perform calculations.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 4: My Future Project</h3>
+                <p>I plan to build a more advanced web application that integrates multiple technologies and provides a comprehensive solution to a real-world problem.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+         </ul>
+    </section>    
+    <section id="goals">
+        <h2>My Goals</h2>
+        <p>My short-term goal is to complete my Bachelor of Science in Information Technology with a strong academic record, while gaining practical experience through internships and personal projects.</p>
+        <p>My goal is to become a proficient software developer, contributing to impactful projects and continuously enhancing my skills in the field of information technology.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Have a question or want to work together? Feel free to reach out!</p>
+        <form action="https://formspree.io/f/xppppokj" method="POST">
+  <label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+
+<!-- Email Field -->
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<!-- Message Field -->
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+
+<!-- Submit Button -->
+<button type="submit">Send</button>
+</form>
+        <p>Email: mikemikeben61@gmail.com</p>
+        <p>Phone: +254758317782</p>
+    </section>
+    <section id="Calculator">
+        <h2>Calculator</h2>
+        <input type="number" id="firstNumber" placeholder="Enter first number">
+        <input type="number" id="secondNumber" placeholder="Enter second number">
+        <button onclick="calculate('+')">Add</button>
+        <button onclick="calculate('-')">Subtract</button>
+        <button onclick="calculate('*')">Multiply</button>
+        <button onclick="calculate('/')">Divide</button>
+        <h3>Result: <span id="result"></span></h3>
+    </section>
+    <footer>
+        <p>Copyright 2026 - Michael's Portfolio</p>
+        <p>BIT Student | Aspiring IT Professional</p>
+        <p>Learning, building, and growing through technology</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
